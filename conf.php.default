@@ -1,0 +1,10 @@
+<?php
+class CONF
+{
+	var $host = 'localhost';
+	var $user = 'root';
+	var $pass = '';
+	var $db = 'vr';
+	var $enc = 'utf8';
+}
+?>

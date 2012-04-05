@@ -1,0 +1,120 @@
+2012-01-03 05:03:30 | PHP WebSocket Server
+2012-01-03 05:03:30 | ========================================
+2012-01-03 05:03:30 | Server Started : 2012-01-03 05:03:30
+2012-01-03 05:03:30 | Listening on   : 0:12345
+2012-01-03 05:03:30 | ========================================
+2012-01-03 05:03:34 | HYBI Response SENT!
+2012-01-03 05:03:34 | User has been added to vr
+[VR] 16 connected: Array
+(
+)
+ 
+[VR] 16 disconnected 
+2012-01-03 05:10:46 | HYBI Response SENT!
+2012-01-03 05:10:46 | User has been added to vr
+[VR] 17 connected: Array
+(
+    [juego] => 14
+    [id] => 31
+)
+ 
+2012-01-03 05:10:46 | MESSAGE RECEIVED {"accion":"join","id":31,"jugador":{"id":31,"nombre":"b","color":"#00a"}}
+
+Notice: Undefined variable: enc in C:\Lemontecho\www\vr\db.php on line 12
+
+Call Stack:
+    0.0016     381888   1. {main}() C:\Lemontecho\www\vr\websocket_server.php:0
+    0.0444     946880   2. VRSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:152
+    0.0444     946880   3. WebSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:146
+  435.6875     965944   4. WebSocket->onData() C:\Lemontecho\www\vr\phpws\websocket.server.php:143
+  435.6875     965944   5. WebSocketConnectionHybi->readFrame() C:\Lemontecho\www\vr\phpws\websocket.socket.php:37
+  435.6890     967184   6. WebSocketConnectionHybi->processMessageFrame() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:168
+  435.6890     967608   7. WebSocket->onMessage() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:195
+  435.6893     967608   8. WebSocketServer->onMessage() C:\Lemontecho\www\vr\phpws\websocket.socket.php:48
+  435.6893     967608   9. WebSocketServer->dispatchMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:323
+  435.6893     967608  10. VRHandler->onMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:235
+  435.6912     968904  11. DB->DB() C:\Lemontecho\www\vr\websocket_server.php:27
+
+[VR] 17 says '{"accion":"lista_online","ids":["31"]}' 
+2012-01-03 05:10:56 | HYBI Response SENT!
+2012-01-03 05:10:56 | User has been added to vr
+[VR] 20 connected: Array
+(
+    [juego] => 14
+    [id] => 30
+)
+ 
+2012-01-03 05:10:56 | MESSAGE RECEIVED {"accion":"join","id":30,"jugador":{"id":30,"nombre":"a","color":"#a00"}}
+
+Notice: Undefined variable: enc in C:\Lemontecho\www\vr\db.php on line 12
+
+Call Stack:
+    0.0016     381888   1. {main}() C:\Lemontecho\www\vr\websocket_server.php:0
+    0.0444     946880   2. VRSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:152
+    0.0444     946880   3. WebSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:146
+  445.2529     985000   4. WebSocket->onData() C:\Lemontecho\www\vr\phpws\websocket.server.php:143
+  445.2530     985000   5. WebSocketConnectionHybi->readFrame() C:\Lemontecho\www\vr\phpws\websocket.socket.php:37
+  445.2545     986240   6. WebSocketConnectionHybi->processMessageFrame() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:168
+  445.2546     986664   7. WebSocket->onMessage() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:195
+  445.2549     986664   8. WebSocketServer->onMessage() C:\Lemontecho\www\vr\phpws\websocket.socket.php:48
+  445.2550     986664   9. WebSocketServer->dispatchMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:323
+  445.2551     986664  10. VRHandler->onMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:235
+  445.2587     987952  11. DB->DB() C:\Lemontecho\www\vr\websocket_server.php:27
+
+[VR] 20 says '{"accion":"lista_online","ids":["31","30"]}' 
+[VR] 20 disconnected 
+2012-01-03 05:11:02 | HYBI Response SENT!
+2012-01-03 05:11:02 | User has been added to vr
+[VR] 21 connected: Array
+(
+    [juego] => 14
+    [id] => 30
+)
+ 
+2012-01-03 05:11:02 | MESSAGE RECEIVED {"accion":"join","id":30,"jugador":{"id":30,"nombre":"a","color":"#a00"}}
+
+Notice: Undefined variable: enc in C:\Lemontecho\www\vr\db.php on line 12
+
+Call Stack:
+    0.0016     381888   1. {main}() C:\Lemontecho\www\vr\websocket_server.php:0
+    0.0444     946880   2. VRSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:152
+    0.0444     946880   3. WebSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:146
+  451.5901     989376   4. WebSocket->onData() C:\Lemontecho\www\vr\phpws\websocket.server.php:143
+  451.5901     989376   5. WebSocketConnectionHybi->readFrame() C:\Lemontecho\www\vr\phpws\websocket.socket.php:37
+  451.5922     990616   6. WebSocketConnectionHybi->processMessageFrame() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:168
+  451.5923     991040   7. WebSocket->onMessage() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:195
+  451.5926     991040   8. WebSocketServer->onMessage() C:\Lemontecho\www\vr\phpws\websocket.socket.php:48
+  451.5927     991040   9. WebSocketServer->dispatchMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:323
+  451.5927     991040  10. VRHandler->onMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:235
+  451.5962     992328  11. DB->DB() C:\Lemontecho\www\vr\websocket_server.php:27
+
+[VR] 21 says '{"accion":"lista_online","ids":["31","30"]}' 
+[VR] 17 disconnected 
+2012-01-03 05:11:25 | HYBI Response SENT!
+2012-01-03 05:11:25 | User has been added to vr
+[VR] 22 connected: Array
+(
+    [juego] => 14
+    [id] => 31
+)
+ 
+2012-01-03 05:11:25 | MESSAGE RECEIVED {"accion":"join","id":31,"jugador":{"id":31,"nombre":"b","color":"#00a"}}
+
+Notice: Undefined variable: enc in C:\Lemontecho\www\vr\db.php on line 12
+
+Call Stack:
+    0.0016     381888   1. {main}() C:\Lemontecho\www\vr\websocket_server.php:0
+    0.0444     946880   2. VRSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:152
+    0.0444     946880   3. WebSocketServer->run() C:\Lemontecho\www\vr\websocket_server.php:146
+  474.2432     992728   4. WebSocket->onData() C:\Lemontecho\www\vr\phpws\websocket.server.php:143
+  474.2433     992728   5. WebSocketConnectionHybi->readFrame() C:\Lemontecho\www\vr\phpws\websocket.socket.php:37
+  474.2448     993968   6. WebSocketConnectionHybi->processMessageFrame() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:168
+  474.2449     994392   7. WebSocket->onMessage() C:\Lemontecho\www\vr\phpws\websocket.protocol.php:195
+  474.2452     994392   8. WebSocketServer->onMessage() C:\Lemontecho\www\vr\phpws\websocket.socket.php:48
+  474.2452     994392   9. WebSocketServer->dispatchMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:323
+  474.2453     994392  10. VRHandler->onMessage() C:\Lemontecho\www\vr\phpws\websocket.server.php:235
+  474.2492     995680  11. DB->DB() C:\Lemontecho\www\vr\websocket_server.php:27
+
+[VR] 22 says '{"accion":"lista_online","ids":["30","31"]}' 
+[VR] 22 disconnected 
+[VR] 21 disconnected 

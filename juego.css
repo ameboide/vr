@@ -1,0 +1,33 @@
+#contenedor{
+	position: relative;
+}
+#contenedor canvas{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.online{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.yo{
+	font-style: italic;
+}
+
+#div_juego{
+	float: left;
+	width: 300px;
+}
+#div_chat{
+	display: inline-block;
+	width: 800px;
+}
+#chat{
+	height: 100px;
+	overflow: auto;
+	border: 1px solid;
+}
+#msg_chat{
+	width: 690px;
+}
